@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:pages="clr-namespace:FlyoutBackgroundImageTest.Pages"
+       Title="FlyoutBackgroundImageTest"
+       x:Class="FlyoutBackgroundImageTest.AppShell"
+       FlyoutBackgroundImage="Resources/Images/dotnet_bot_tinyjpg.jpg"
+       FlyoutBackgroundImageAspect="Fill">
+
+
+    <FlyoutItem Title="MauiPage1">
+        <ShellContent Route="page1" 
+                      ContentTemplate="{DataTemplate pages:MauiPage1}" />
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="MauiPage2">
+        <ShellContent Route="page2" 
+                      ContentTemplate="{DataTemplate pages:MauiPage2}" />
+    </FlyoutItem>
+</Shell>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FlyoutBackgroundImageTest.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
